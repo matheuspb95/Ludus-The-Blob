@@ -43,5 +43,6 @@ public class Control : MonoBehaviour {
 				//shootRefer.Shoot(Camera.main.ScreenToWorldPoint (touch.position));
 			}
 		}
+		shootRefer.Shoot(Camera.main.ScreenToWorldPoint (Input.mousePosition));
 	}
 }
