@@ -11,6 +11,8 @@ public class shoot : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Paredes"), LayerMask.NameToLayer("PlayerBullets"));
+		Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("PhysicalBody"), LayerMask.NameToLayer("PlayerBullets"));
+
 		Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("PlayerBullets"), LayerMask.NameToLayer("PlayerBullets"));
 	}
 	
