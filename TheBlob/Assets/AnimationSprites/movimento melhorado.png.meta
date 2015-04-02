@@ -58,81 +58,21 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 674
-        width: 84
-        height: 94
+        y: 623
+        width: 85
+        height: 145
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: movimento melhorado_1
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 654
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: movimento melhorado_2
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 650
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: movimento melhorado_3
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 626
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: movimento melhorado_4
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 634
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: movimento melhorado_5
       rect:
         serializedVersion: 2
         x: 8
-        y: 516
-        width: 85
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: movimento melhorado_6
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 504
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: movimento melhorado_7
-      rect:
-        serializedVersion: 2
-        x: 51
         y: 494
-        width: 10
-        height: 10
+        width: 83
+        height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: movimento melhorado_8
       rect:
