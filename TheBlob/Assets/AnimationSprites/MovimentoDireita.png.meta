@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: cc45db80213d04a499853d83bdb51e12
+guid: 302d2f066b4f3be45b535c82ddccd9ea
 TextureImporter:
   fileIDToRecycleName:
-    21300000: movimento lateral esquerda_0
-    21300002: movimento lateral esquerda_1
-    21300004: movimento lateral esquerda_2
-    21300006: movimento lateral esquerda_3
-    21300008: movimento lateral esquerda_4
-    21300010: movimento lateral esquerda_5
-    21300012: movimento lateral esquerda_6
+    21300000: movimento lateral 5_0
+    21300002: movimento lateral 5_1
+    21300004: movimento lateral 5_2
+    21300006: movimento lateral 5_3
+    21300008: movimento lateral 5_4
+    21300010: movimento lateral 5_5
+    21300012: movimento lateral 5_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -44,79 +44,79 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 1000
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: movimento lateral esquerda_0
+    - name: movimento lateral 5_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
+        y: 4
         width: 93
-        height: 60
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: movimento lateral esquerda_1
+    - name: movimento lateral 5_1
       rect:
         serializedVersion: 2
-        x: 136
-        y: 5
-        width: 102
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: movimento lateral esquerda_2
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 0
-        width: 131
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: movimento lateral esquerda_3
-      rect:
-        serializedVersion: 2
-        x: 445
-        y: 5
-        width: 116
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: movimento lateral esquerda_4
-      rect:
-        serializedVersion: 2
-        x: 602
-        y: 2
-        width: 144
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: movimento lateral esquerda_5
-      rect:
-        serializedVersion: 2
-        x: 782
+        x: 141
         y: 7
         width: 102
         height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: movimento lateral esquerda_6
+    - name: movimento lateral 5_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2
+        width: 143
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: movimento lateral 5_3
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 5
+        width: 117
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: movimento lateral 5_4
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 0
+        width: 132
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: movimento lateral 5_5
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 5
+        width: 102
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: movimento lateral 5_6
       rect:
         serializedVersion: 2
         x: 932
-        y: 4
+        y: 1
         width: 92
-        height: 59
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
