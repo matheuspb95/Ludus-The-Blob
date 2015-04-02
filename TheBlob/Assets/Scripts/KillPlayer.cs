@@ -25,7 +25,7 @@ public class KillPlayer : MonoBehaviour {
 	}
 	//	void OnCollisionEnter2D(Collision2D cool){
 	//if (cool.gameObject.tag == "Enemy") {
-		//Application.LoadLevel("teste");
-		
-		
-	}
+	//Application.LoadLevel("teste");
+	
+	
+}
