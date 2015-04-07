@@ -17,6 +17,7 @@ public class Colisão : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D cool){
 		if (cool.gameObject.tag == "BlobBullet") {
 			gameObject.Recycle();
+			cool.gameObject.Recycle();
 			//Debug.Log("Destroy");
 				
 		

@@ -40,11 +40,11 @@ public class Control : MonoBehaviour {
 					body.AddForce (touch.deltaPosition.normalized * Acceleration);
 				}	
 			} else{
-				//shootRefer.Shoot(Camera.main.ScreenToWorldPoint (touch.position));
+				shootRefer.Shoot(Camera.main.ScreenToWorldPoint (touch.position));
 			}
 		}
 
-		shootRefer.Shoot(Camera.main.ScreenToWorldPoint (Input.mousePosition));
+		//shootRefer.Shoot(Camera.main.ScreenToWorldPoint (Input.mousePosition));
 
 	}
 }
