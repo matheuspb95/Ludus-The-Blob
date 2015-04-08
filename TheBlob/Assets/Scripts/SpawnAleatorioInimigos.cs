@@ -19,7 +19,7 @@ public class SpawnAleatorioInimigos : MonoBehaviour {
 		while (posy > 0 && posy < 1) {
 			posy = Random.Range (-1f, 2f);
 		}
-		Debug.Log(""+posx+" - "+posy);
+		//Debug.Log(""+posx+" - "+posy);
 		enemyPrefab.Spawn (Camera.main.ViewportToWorldPoint (new Vector3(posx, posy, 10)));
 	}
 	

@@ -10,10 +10,10 @@ public class AnimaçãoMovimento : MonoBehaviour {
 
 		Vector3 targetDir = Direçao;
 
-		float angle = Mathf.Atan2 (targetDir.x, targetDir.y) * Mathf.Rad2Deg;
-
+		float angle = Mathf.Atan2 (targetDir.y, targetDir.x) * Mathf.Rad2Deg;
+		Debug.Log (angle);
 		if ((angle>=45) && angle<=135){
-			Gosma.SetBool ("MoveCima",true);
+			Gosma.SetTrigger ("MoveCima");
 
 		}
 	
