@@ -7,6 +7,8 @@ public class Control : MonoBehaviour {
 	public float tapSpeed=0.5f;
 	private float lastTapTime=0;
 	private shoot shootRefer;
+	public AnimaçãoMovimento animacao;
+
 	// Use this for initialization
 	void Start () {
 		body = transform.parent.rigidbody2D;
@@ -38,6 +40,7 @@ public class Control : MonoBehaviour {
 				}
 				if (touch.phase == TouchPhase.Moved) {
 					body.AddForce (touch.deltaPosition.normalized * Acceleration);
+					animacao.Animaçao(touch.deltaPosition);
 				}	
 			} else{
 				shootRefer.Shoot(Camera.main.ScreenToWorldPoint (touch.position));
