@@ -8,6 +8,7 @@ public class Control : MonoBehaviour {
 	private float lastTapTime=0;
 	private shoot shootRefer;
 	public AnimaçãoMovimento animacao;
+	public float MaxVelocity;
 
 	// Use this for initialization
 	void Start () {
