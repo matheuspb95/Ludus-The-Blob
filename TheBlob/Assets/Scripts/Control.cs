@@ -40,8 +40,10 @@ public class Control : MonoBehaviour {
 					lastTapTime = Time.time;
 				}
 				if (touch.phase == TouchPhase.Moved) {
-					body.AddForce (touch.deltaPosition.normalized * Acceleration);
-					animacao.Animaçao(touch.deltaPosition);
+					if(touch.deltaPosition.magnitude > 2){
+						body.AddForce (touch.deltaPosition.normalized * Acceleration);
+						animacao.Animaçao(touch.deltaPosition);
+					}
 				}	
 			} else{
 				shootRefer.Shoot(Camera.main.ScreenToWorldPoint (touch.position));
