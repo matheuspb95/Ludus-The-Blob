@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\KillPlayer.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\shoot.cs">
     <Files>
-      <File FileName="assets\Scripts\Control.cs" Line="17" Column="12" />
-      <File FileName="assets\Scripts\KillPlayer.cs" Line="25" Column="27" />
-      <File FileName="assets\Scripts\ScoreManager.cs" Line="1" Column="1" />
-      <File FileName="assets\Scripts\Colisão.cs" Line="1" Column="1" />
-      <File FileName="assets\Scripts\LifeManager.cs" Line="17" Column="7" />
+      <File FileName="assets\Scripts\shoot.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
