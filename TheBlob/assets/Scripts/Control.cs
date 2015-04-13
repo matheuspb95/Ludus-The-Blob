@@ -19,11 +19,11 @@ public class Control : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-//		if (Input.GetMouseButton (0)) {
-//			RaycastHit hit;
-//			Physics.Raycast (Camera.main.ScreenToWorldPoint (Input.mousePosition), Vector3.forward, out hit, 1000);
-//			Debug.Log (hit.collider);
-//z		}
+		if (Input.GetMouseButton (0)) {
+			RaycastHit hit;
+			Physics.Raycast (Camera.main.ScreenToWorldPoint (Input.mousePosition), Vector3.forward, out hit, 1000);
+			Debug.Log (hit.collider);
+		}
 		//Mover Bloco Com toque
 		foreach (Touch touch in Input.touches) {
 			RaycastHit hit;
@@ -50,7 +50,7 @@ public class Control : MonoBehaviour {
 			}
 		}
 
-		//shootRefer.Shoot(Camera.main.ScreenToWorldPoint (Input.mousePosition));
+		shootRefer.Shoot(Camera.main.ScreenToWorldPoint (Input.mousePosition));
 
 	}
 }

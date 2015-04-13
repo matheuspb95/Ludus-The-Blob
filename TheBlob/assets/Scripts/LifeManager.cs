@@ -10,9 +10,10 @@ public class LifeManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		life = life - KillPlayer.death;
-		if (life==0){
-			Destroy (gameObject);
-			}
+//		life = life - KillPlayer.death;
+//		Debug.Log (life);
+//		if (life==0){
+//			Destroy (gameObject);
+//			}
 	}
 }

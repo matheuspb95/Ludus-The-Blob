@@ -16,10 +16,10 @@ public class Colisão : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D cool){
 		if (cool.gameObject.tag == "BlobBullet") {
-			gameObject.Recycle();
-			cool.gameObject.Recycle();
-			ScoreManager.score++;
-			//Debug.Log("Destroy");						
+					gameObject.Recycle ();
+					cool.gameObject.Recycle ();
+					ScoreManager.score += 10;
 		}
+	
 	}
 }
