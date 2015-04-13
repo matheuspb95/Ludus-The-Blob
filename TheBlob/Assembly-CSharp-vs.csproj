@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_3;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,25 +46,25 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AdjustPositionToScreen.cs" />
-     <Compile Include="Assets\Scripts\AnimaçãoMovimento.cs" />
-     <Compile Include="Assets\Scripts\Colisão.cs" />
-     <Compile Include="Assets\Scripts\Control.cs" />
-     <Compile Include="Assets\Scripts\ControllerEnemy.cs" />
-     <Compile Include="Assets\Scripts\DestroyBullet.cs" />
-     <Compile Include="Assets\Scripts\DestroyByTime.cs" />
-     <Compile Include="Assets\Scripts\KillPlayer.cs" />
-     <Compile Include="Assets\Scripts\LifeManager.cs" />
-     <Compile Include="Assets\Scripts\LoadScene.cs" />
-     <Compile Include="Assets\Scripts\MoveSet.cs" />
-     <Compile Include="Assets\Scripts\MovimentAnimation.cs" />
-     <Compile Include="Assets\Scripts\ObjectPool.cs" />
-     <Compile Include="Assets\Scripts\PowerUps.cs" />
-     <Compile Include="Assets\Scripts\ScoreManager.cs" />
-     <Compile Include="Assets\Scripts\SpawnAleatorioInimigos.cs" />
-     <Compile Include="Assets\Scripts\shoot.cs" />
+     <Compile Include="assets\Scripts\AdjustPositionToScreen.cs" />
+     <Compile Include="assets\Scripts\AnimaçãoMovimento.cs" />
+     <Compile Include="assets\Scripts\Colisão.cs" />
+     <Compile Include="assets\Scripts\Control.cs" />
+     <Compile Include="assets\Scripts\ControllerEnemy.cs" />
+     <Compile Include="assets\Scripts\DestroyBullet.cs" />
+     <Compile Include="assets\Scripts\DestroyByTime.cs" />
+     <Compile Include="assets\Scripts\KillPlayer.cs" />
+     <Compile Include="assets\Scripts\LifeManager.cs" />
+     <Compile Include="assets\Scripts\LoadScene.cs" />
+     <Compile Include="assets\Scripts\MoveSet.cs" />
+     <Compile Include="assets\Scripts\MovimentAnimation.cs" />
+     <Compile Include="assets\Scripts\ObjectPool.cs" />
+     <Compile Include="assets\Scripts\PowerUps.cs" />
+     <Compile Include="assets\Scripts\ScoreManager.cs" />
+     <Compile Include="assets\Scripts\SpawnAleatorioInimigos.cs" />
+     <Compile Include="assets\Scripts\shoot.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
