@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StarsAnimation.cs">
+    <Files>
+      <File FileName="Assets\Scripts\AnimaçãoMovimento.cs" Line="5" Column="1" />
+      <File FileName="StarsAnimation.cs" Line="26" Column="2" />
+      <File FileName="..\..\..\..\..\..\Public\Documents\Unity Projects\Ludus-The-Blob\TheBlob\Assets\Scripts\ScoreManager.cs" Line="5" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

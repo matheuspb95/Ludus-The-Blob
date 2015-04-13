@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 9b1b1c9bc0ea6a34f9e16449af79567a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Right_Gosmita_0
+    21300002: Right_Gosmita_1
+    21300004: Right_Gosmita_2
+    21300006: Right_Gosmita_3
+    21300008: Right_Gosmita_4
+    21300010: Right_Gosmita_5
+    21300012: Right_Gosmita_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Right_Gosmita_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 218
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Right_Gosmita_1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 14
+        width: 242
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Right_Gosmita_2
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2
+        width: 340
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Right_Gosmita_3
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 9
+        width: 276
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Right_Gosmita_4
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 0
+        width: 310
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Right_Gosmita_5
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 8
+        width: 242
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Right_Gosmita_6
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 0
+        width: 219
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

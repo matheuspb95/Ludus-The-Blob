@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 1f5d2b202c590204fa8d037eebdc5692
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Meteoros_0
+    21300002: Meteoros_1
+    21300004: Meteoros_2
+    21300006: Meteoros_3
+    21300008: Meteoros_4
+    21300010: Meteoros_5
+    21300012: Meteoros_6
+    21300014: Meteoros_7
+    21300016: Meteoros_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Meteoros_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1519
+        width: 636
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Meteoros_1
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1418
+        width: 715
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Meteoros_2
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 1450
+        width: 648
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Meteoros_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 775
+        width: 540
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Meteoros_4
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 639
+        width: 560
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Meteoros_5
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 711
+        width: 554
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Meteoros_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 36
+        width: 473
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Meteoros_7
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 7
+        width: 473
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Meteoros_8
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 0
+        width: 525
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
