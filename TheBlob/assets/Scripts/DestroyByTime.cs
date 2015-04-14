@@ -16,5 +16,4 @@ public class DestroyByTime : MonoBehaviour {
 	void OnEnable(){
 		Invoke ("DestroyNow", time);
 	}
-
 } 

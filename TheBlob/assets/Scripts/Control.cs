@@ -50,7 +50,7 @@ public class Control : MonoBehaviour {
 			}
 		}
 
-		//shootRefer.Shoot(Camera.main.ScreenToWorldPoint (Input.mousePosition));
+		shootRefer.Shoot(Camera.main.ScreenToWorldPoint (Input.mousePosition));
 
 	}
 }
