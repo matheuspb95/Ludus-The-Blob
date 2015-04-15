@@ -10,6 +10,7 @@ public class KillPlayer : MonoBehaviour {
 	public static int death=0;
 	void Start () {
 		death=0;
+		ScoreManager.score = 0;
 	}
 	
 	// Update is called once per frame

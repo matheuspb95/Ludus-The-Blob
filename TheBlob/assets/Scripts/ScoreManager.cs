@@ -14,7 +14,6 @@ public class ScoreManager : MonoBehaviour
 	{
 		// Set up the reference.
 		text = GetComponent <Text> ();
-	
 		// Reset the score.
 		//score ;
 	}
