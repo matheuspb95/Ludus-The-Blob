@@ -65,6 +65,7 @@
      <Compile Include="assets\Scripts\SpawnAleatorioInimigos.cs" />
      <Compile Include="assets\Scripts\StarsScore.cs" />
      <Compile Include="assets\Scripts\TimeManager.cs" />
+     <Compile Include="assets\Scripts\fade.cs" />
      <Compile Include="assets\Scripts\shoot.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
