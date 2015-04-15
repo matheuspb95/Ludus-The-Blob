@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="assets\Scripts\AdjustPositionToScreen.cs" />
+     <Compile Include="assets\Scripts\AnimationTime.cs" />
      <Compile Include="assets\Scripts\AnimaçãoMovimento.cs" />
      <Compile Include="assets\Scripts\Colisão.cs" />
      <Compile Include="assets\Scripts\Control.cs" />

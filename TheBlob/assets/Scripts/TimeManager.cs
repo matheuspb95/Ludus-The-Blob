@@ -8,7 +8,7 @@ public class TimeManager : MonoBehaviour {
 	void Awake ()
 	{
 		// Set up the reference.
-		timetext = GetComponent <Text> ();
+//		timetext = GetComponent <Text> ();
 		
 		// Reset the score.
 		//score ;
@@ -18,7 +18,7 @@ public class TimeManager : MonoBehaviour {
 	void Update ()
 	{
 		// Set the displayed text to be the word "Score" followed by the score value.
-		timetext.text = " " + Time.timeSinceLevelLoad;
+//		timetext.text = " " + Time.timeSinceLevelLoad;
 		if(Time.timeSinceLevelLoad>=VictoryTime){
 			Application.LoadLevel("victory");
 		}
