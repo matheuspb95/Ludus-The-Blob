@@ -3,7 +3,7 @@ using System.Collections;
 
 public class KillPlayer : MonoBehaviour {
 	// Use this for initialization
-	public GameObject[] hearts;
+//	public GameObject[] hearts;
 
 
 
@@ -23,9 +23,9 @@ public class KillPlayer : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Enemy"){
 
-			Destroy(hearts[death]);
+//			Destroy(hearts[death]);
+//			Debug.Log(death);
 			death++;
-			Debug.Log(death);
 			coll.gameObject.Recycle();
 			//Application.LoadLevel("gameover");
 					
