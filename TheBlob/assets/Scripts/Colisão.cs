@@ -17,6 +17,7 @@ public class Colisão : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D cool){
 		if (cool.gameObject.tag == "BlobBullet") {
 					cool.gameObject.Recycle ();
+					audio.Play();
 					ScoreManager.score += 10;
 					Explosao.SetTrigger("Reaction");
 					Invoke ("DestroyNow", time);
