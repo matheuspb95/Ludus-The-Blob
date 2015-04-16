@@ -7,7 +7,7 @@ public class shoot : MonoBehaviour {
 	public int angleVariation;
 	public GameObject BulletPrefab;
 	private float nextFire;
-	public float FireRate;
+	public float FirePerSecond;
 	// Use this for initialization
 	void Start () {
 		Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Paredes"), LayerMask.NameToLayer("PlayerBullets"));
@@ -26,7 +26,8 @@ public class shoot : MonoBehaviour {
 	public void Shoot(Vector3 position){
 		if(nextFire < Time.fixedTime){
 			//Debug.Log ("shoot1");
-			nextFire = Time.fixedTime + FireRate;
+			nextFire = Time.fixedTime + Mathf.Pow(FirePerSecond, -1);
+			Debug.Log (nextFire);
 			Vector2 direction = position - transform.position;
 			GameObject NewBullet = BulletPrefab.Spawn (transform.position);
 			NewBullet.rigidbody2D.velocity = direction.normalized * BulletVelocity;

@@ -15,7 +15,7 @@ public class PowerUps : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D coll) {
 			if(coll.gameObject.tag== "FireRate"){
 			shoot c= new shoot();
-			c.FireRate= 1;
+			c.FirePerSecond= 1;
 		}
 	/*void OnCollisionEnter2D(Collision2D cool){
 		if (cool.gameObject.tag == "FireRate") {

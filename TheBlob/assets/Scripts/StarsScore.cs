@@ -6,11 +6,15 @@ public class StarsScore : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 				if (ScoreManager.score < StarScore  ) {
-						gameObject.SetActive (false);
+						//gameObject.SetActive (false);
+						gameObject.renderer.enabled = false;
 				}
 		}
 	// Update is called once per frame
 	void Update () {
+		if (ScoreManager.score > StarScore  ) {
+			gameObject.renderer.enabled = true;
+		}
 	
 	}
 	
