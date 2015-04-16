@@ -4,7 +4,6 @@ using System.Collections;
 public class Colisão : MonoBehaviour {
 	public Animator Explosao;
 	public float time;
-	public static int starscore;
 	// Use this for initializationz
 	void Start () {
 		Explosao = GetComponent<Animator> ();

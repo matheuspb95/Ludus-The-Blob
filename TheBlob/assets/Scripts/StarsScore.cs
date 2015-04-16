@@ -3,6 +3,7 @@ using System.Collections;
 
 public class StarsScore : MonoBehaviour {
 	public int StarScore;
+	public static int Required;
 	// Use this for initialization
 	void Start () {
 				if (ScoreManager.score < StarScore  ) {
@@ -14,8 +15,6 @@ public class StarsScore : MonoBehaviour {
 	void Update () {
 		if (ScoreManager.score > StarScore  ) {
 			gameObject.renderer.enabled = true;
-		}
-	
-	}
-	
+		}	
+	}	
 }
