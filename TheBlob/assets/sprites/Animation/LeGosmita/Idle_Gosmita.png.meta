@@ -55,18 +55,18 @@ TextureImporter:
     - name: Idle_Gosmita_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 385
+        x: 29
+        y: 376
         width: 145
-        height: 148
+        height: 147
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Gosmita_1
       rect:
         serializedVersion: 2
-        x: 248
-        y: 378
+        x: 246
+        y: 403
         width: 146
         height: 149
       alignment: 0
@@ -75,9 +75,9 @@ TextureImporter:
     - name: Idle_Gosmita_2
       rect:
         serializedVersion: 2
-        x: 473
-        y: 381
-        width: 146
+        x: 461
+        y: 398
+        width: 145
         height: 146
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -85,49 +85,49 @@ TextureImporter:
     - name: Idle_Gosmita_3
       rect:
         serializedVersion: 2
-        x: 23
-        y: 207
-        width: 145
-        height: 147
+        x: 21
+        y: 203
+        width: 147
+        height: 145
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Gosmita_4
       rect:
         serializedVersion: 2
-        x: 18
-        y: 24
-        width: 146
-        height: 149
+        x: 241
+        y: 203
+        width: 147
+        height: 146
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Gosmita_5
       rect:
         serializedVersion: 2
-        x: 246
-        y: 24
-        width: 146
-        height: 144
+        x: 470
+        y: 203
+        width: 147
+        height: 146
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Gosmita_6
       rect:
         serializedVersion: 2
-        x: 488
-        y: 20
-        width: 145
-        height: 148
+        x: 17
+        y: 23
+        width: 146
+        height: 149
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Gosmita_7
       rect:
         serializedVersion: 2
-        x: 246
-        y: 207
-        width: 145
+        x: 240
+        y: 22
+        width: 149
         height: 146
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -135,10 +135,10 @@ TextureImporter:
     - name: Idle_Gosmita_8
       rect:
         serializedVersion: 2
-        x: 478
-        y: 207
-        width: 146
-        height: 146
+        x: 479
+        y: 19
+        width: 147
+        height: 144
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
