@@ -58,9 +58,7 @@
      <Compile Include="assets\Scripts\LifeManager.cs" />
      <Compile Include="assets\Scripts\LoadScene.cs" />
      <Compile Include="assets\Scripts\MoveSet.cs" />
-     <Compile Include="assets\Scripts\MovimentAnimation.cs" />
      <Compile Include="assets\Scripts\ObjectPool.cs" />
-     <Compile Include="assets\Scripts\PowerUps.cs" />
      <Compile Include="assets\Scripts\Reaction.cs" />
      <Compile Include="assets\Scripts\RequiredStar.cs" />
      <Compile Include="assets\Scripts\ScoreManager.cs" />

@@ -1,13 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\SoundControler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\RequiredStar.cs">
     <Files>
-      <File FileName="assets\Scripts\SoundControler.cs" Line="27" Column="2" />
+      <File FileName="assets\Scripts\RequiredStar.cs" Line="7" Column="17" />
+      <File FileName="assets\Scripts\LifeManager.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\LoadScene.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\MoveSet.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\Reaction.cs" Line="1" Column="1" />
       <File FileName="assets\Scripts\ScoreManager.cs" Line="1" Column="1" />
-      <File FileName="assets\Scripts\TimeManager.cs" Line="1" Column="1" />
-      <File FileName="assets\Scripts\AnimationTime.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\shoot.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\SoundControler.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\SpawnAleatorioInimigos.cs" Line="1" Column="1" />
       <File FileName="assets\Scripts\StarsScore.cs" Line="1" Column="1" />
-      <File FileName="assets\Scripts\RequiredStar.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\TimeManager.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

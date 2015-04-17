@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+// Play clip TimeSeconds slower
 public class AnimationTime : MonoBehaviour {
 	public float TimeSeconds; //Para alterar manualmente
 	Animator bar;

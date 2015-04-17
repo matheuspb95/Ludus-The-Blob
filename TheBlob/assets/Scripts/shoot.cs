@@ -12,17 +12,12 @@ public class shoot : MonoBehaviour {
 	void Start () {
 		Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Paredes"), LayerMask.NameToLayer("PlayerBullets"));
 		Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("PhysicalBody"), LayerMask.NameToLayer("PlayerBullets"));
-
-		//Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("PlayerBullets"), LayerMask.NameToLayer("PlayerBullets"));
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-
-
 	}
-
 	public void Shoot(Vector3 position){
 		if(nextFire < Time.fixedTime){
 			//Debug.Log ("shoot1");
@@ -32,6 +27,5 @@ public class shoot : MonoBehaviour {
 			GameObject NewBullet = BulletPrefab.Spawn (transform.position);
 			NewBullet.rigidbody2D.velocity = direction.normalized * BulletVelocity;
 		}
-
 	}
 }
