@@ -2,36 +2,34 @@
 using System.Collections;
 
 public class SoundControler : MonoBehaviour {
+	public AudioSource Menu;
+	public AudioSource GameOver;
+	public AudioSource Explosao;
+	public AudioSource Stage;
 
-	// Use this for initialization
-
-
-	//function Awake () {
-
-		//if(Application.loadedLevelName  == "Menu_Planets"){
-
-			//DontDestroyOnLoad (transform.gameObject);
-		//}
-
-
-
-	//}
-
-
-
-
-
+	public void MusicaMenu(){
+		Menu.Play();		
+	}
+	public void MusicaExplosao(){	
+		Explosao.Play();
+	}	
+	public void MusicaStage(){	
+		Stage.Play();
+	}
+	public void MusicaGameOver(){
+		GameOver.Play();			
+	}
 	void Start () {
 		DontDestroyOnLoad (transform.gameObject);
 	}
-	
-	// Update is called once per frame
-	void Update () {
 
-		if(Application.loadedLevelName  == "stage1"){
-			
-			Destroy (transform.gameObject);
-		}
+
+
+
 	
-	}
-}
+	
+
+
+
+
+		}
