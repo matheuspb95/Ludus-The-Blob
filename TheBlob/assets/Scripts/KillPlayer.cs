@@ -7,7 +7,6 @@ public class KillPlayer : MonoBehaviour {
 	public static int death=0;
 	void Start () {
 		death=0;
-		ScoreManager.score = 0;
 	}	
 	// Update is called once per frame
 	void Update () {
@@ -18,6 +17,7 @@ public class KillPlayer : MonoBehaviour {
 			coll.gameObject.Recycle();					
 		}
 		if (death == 3){
+			PlayerPrefs.SetInt("Actual Score", GameObject.Find("Manager").GetComponent<ScoreManager>().GetScore());
 			Application.LoadLevel("gameover");
 		}
 	}

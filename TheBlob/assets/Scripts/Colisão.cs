@@ -5,11 +5,11 @@ public class Colisão : MonoBehaviour {
 	public Animator Explosao;
 	public float time;
 	public SoundControler SoundExplosao;
+	private ScoreManager Score;
 	// Use this for initializationz
 	void Start () {
 		Explosao = GetComponent<Animator> ();
-		GameObject.FindGameObjectWithTag("SoundControler");
-		SoundExplosao = GameObject.FindGameObjectWithTag("SoundControler").GetComponent<SoundControler>();
+
 	}	
 	// Update is called once per frame
 	void Update () {
@@ -20,9 +20,10 @@ public class Colisão : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D cool){
 		if (cool.gameObject.tag == "BlobBullet") {
 					cool.gameObject.Recycle ();
-			        SoundExplosao.MusicaExplosao();
-					ScoreManager.score += 10;
-					Explosao.SetTrigger("Reaction");
+			        GameObject.FindGameObjectWithTag("SoundControler").GetComponent<SoundControler>().MusicaExplosao();
+			        Score = GameObject.Find("Manager").GetComponent<ScoreManager>();
+					Score.AddScore(Score.scoreaddnave);
+			        Explosao.SetTrigger("Reaction");
 					Invoke ("DestroyNow", time);
 		}	
 	}

@@ -11,6 +11,7 @@ public class TimeManager : MonoBehaviour {
 	void Update ()
 	{
 		if(Time.timeSinceLevelLoad>=VictoryTime){
+			PlayerPrefs.SetInt("Actual Score", GameObject.Find("Manager").GetComponent<ScoreManager>().GetScore());
 			Application.LoadLevel("victory");
 		}
 	}

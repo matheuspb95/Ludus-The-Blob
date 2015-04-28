@@ -6,14 +6,14 @@ public class StarsScore : MonoBehaviour {
 	public static int Required;
 	// Use this for initialization
 	void Start () {
-				if (ScoreManager.score < StarScore  ) {
+				if (GameObject.Find("Manager").GetComponent<ScoreManager>().GetScore() < StarScore  ) {
 						//gameObject.SetActive (false);
 						gameObject.renderer.enabled = false;
 				}
 		}
 	// Update is called once per frame
 	void Update () {
-		if (ScoreManager.score > StarScore  ) {
+		if (GameObject.Find("Manager").GetComponent<ScoreManager>().GetScore() > StarScore  ) {
 			gameObject.renderer.enabled = true;
 		}	
 	}	
