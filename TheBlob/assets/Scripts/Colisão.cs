@@ -10,8 +10,6 @@ public class Colisão : MonoBehaviour {
 		Explosao = GetComponent<Animator> ();
 		GameObject.FindGameObjectWithTag("SoundControler");
 		SoundExplosao = GameObject.FindGameObjectWithTag("SoundControler").GetComponent<SoundControler>();
-
-
 	}	
 	// Update is called once per frame
 	void Update () {

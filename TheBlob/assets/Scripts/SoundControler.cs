@@ -22,14 +22,4 @@ public class SoundControler : MonoBehaviour {
 	void Start () {
 		DontDestroyOnLoad (transform.gameObject);
 	}
-
-
-
-
-	
-	
-
-
-
-
-		}
+}

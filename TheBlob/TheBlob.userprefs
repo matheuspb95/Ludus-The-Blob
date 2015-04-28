@@ -1,11 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\SoundControler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\StartScene.cs">
     <Files>
-      <File FileName="assets\Scripts\SoundControler.cs" Line="1" Column="1" />
-      <File FileName="assets\Scripts\LoadScene.cs" Line="14" Column="2" />
-      <File FileName="assets\Scripts\AnimaçãoMovimento.cs" Line="12" Column="37" />
-      <File FileName="assets\Scripts\Colisão.cs" Line="26" Column="31" />
+      <File FileName="assets\StartScene.cs" Line="13" Column="3" />
+      <File FileName="..\..\..\..\Downloads\MemoryMonster-master\Assets\Plugins\ChatApi\ChatClient.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
