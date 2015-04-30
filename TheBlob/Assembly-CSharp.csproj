@@ -64,6 +64,7 @@
      <Compile Include="assets\Scripts\ScoreGameOver.cs" />
      <Compile Include="assets\Scripts\ScoreManager.cs" />
      <Compile Include="assets\Scripts\SoundControler.cs" />
+     <Compile Include="assets\Scripts\SoundControlerMenu.cs" />
      <Compile Include="assets\Scripts\SpawnAleatorioInimigos.cs" />
      <Compile Include="assets\Scripts\StarsScore.cs" />
      <Compile Include="assets\Scripts\StartScene.cs" />

@@ -5,7 +5,7 @@ public class KillPlayer : MonoBehaviour {
 	// Use this for initialization
 //	public GameObject[] hearts;
 	public static  int death;
-
+	public string ParameterKill;
 	public int ParameterDeath;
 	void Start () {
 		death=0;
@@ -14,7 +14,7 @@ public class KillPlayer : MonoBehaviour {
 	void Update () {
 	}
 	void OnCollisionEnter2D(Collision2D coll) {
-		if (coll.gameObject.tag == "Enemy"){
+		if (coll.gameObject.tag == ParameterKill){
 			death++;
 			coll.gameObject.Recycle();					
 		}

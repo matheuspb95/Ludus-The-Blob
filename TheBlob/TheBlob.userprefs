@@ -1,11 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\Colisão.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\SoundControlerMenu.cs">
     <Files>
-      <File FileName="assets\Scripts\LifeManager.cs" Line="11" Column="24" />
-      <File FileName="assets\Scripts\KillPlayer.cs" Line="1" Column="1" />
-      <File FileName="assets\Scripts\Colisão.cs" Line="28" Column="5" />
-      <File FileName="assets\Scripts\shoot.cs" Line="25" Column="1" />
+      <File FileName="assets\Scripts\StartScene.cs" Line="13" Column="23" />
+      <File FileName="assets\Scripts\SoundControler.cs" Line="13" Column="32" />
+      <File FileName="assets\Scripts\SoundControlerMenu.cs" Line="9" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

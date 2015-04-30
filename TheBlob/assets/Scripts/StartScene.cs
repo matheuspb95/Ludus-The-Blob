@@ -6,7 +6,7 @@ public class StartScene : MonoBehaviour {
 	// Use this for initialization
 
 	void Awake () {
-
+		GameObject.Find ("Manager").GetComponent<SoundControler> ().MusicaStage ();
 		Instantiate (Player);
 		Instantiate (Score);
 		Instantiate (ProgressBar);
