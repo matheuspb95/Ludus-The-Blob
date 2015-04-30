@@ -1,11 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\Dropbox\ludus\Asteroid Squad\projeto\asteroidsquad\assets\scripts\Asteroid scripts\AsteroidController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\Colisão.cs">
     <Files>
-      <File FileName="..\..\..\..\Dropbox\ludus\Asteroid Squad\projeto\asteroidsquad\assets\ShowOptions.cs" Line="1" Column="1" />
-      <File FileName="..\..\..\..\Dropbox\ludus\Asteroid Squad\projeto\asteroidsquad\assets\scripts\SpawnEnemies.cs" Line="30" Column="32" />
-      <File FileName="..\..\..\..\Dropbox\ludus\Asteroid Squad\projeto\asteroidsquad\assets\scripts\BulletController.cs" Line="1" Column="1" />
-      <File FileName="..\..\..\..\Dropbox\ludus\Asteroid Squad\projeto\asteroidsquad\assets\scripts\Asteroid scripts\AsteroidController.cs" Line="12" Column="28" />
+      <File FileName="assets\Scripts\LifeManager.cs" Line="11" Column="24" />
+      <File FileName="assets\Scripts\KillPlayer.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\Colisão.cs" Line="28" Column="5" />
+      <File FileName="assets\Scripts\shoot.cs" Line="25" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

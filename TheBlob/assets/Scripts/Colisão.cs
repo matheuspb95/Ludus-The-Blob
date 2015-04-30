@@ -19,10 +19,10 @@ public class Colisão : MonoBehaviour {
 	}
 	void OnCollisionEnter2D(Collision2D cool){
 		if (cool.gameObject.tag == "BlobBullet") {
-					cool.gameObject.Recycle ();
-			        GameObject.FindGameObjectWithTag("SoundControler").GetComponent<SoundControler>().MusicaExplosao();
+			         cool.gameObject.Recycle ();
 			        Score = GameObject.Find("Manager").GetComponent<ScoreManager>();
-					Score.AddScore(Score.scoreaddnave);
+			        GameObject.FindGameObjectWithTag("Manager").GetComponent<SoundControler>().MusicaExplosao();
+			        Score.AddScore(Score.scoreaddnave);
 			        Explosao.SetTrigger("Reaction");
 					Invoke ("DestroyNow", time);
 		}	

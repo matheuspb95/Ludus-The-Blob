@@ -61,14 +61,15 @@
      <Compile Include="assets\Scripts\ObjectPool.cs" />
      <Compile Include="assets\Scripts\Reaction.cs" />
      <Compile Include="assets\Scripts\RequiredStar.cs" />
+     <Compile Include="assets\Scripts\ScoreGameOver.cs" />
      <Compile Include="assets\Scripts\ScoreManager.cs" />
      <Compile Include="assets\Scripts\SoundControler.cs" />
      <Compile Include="assets\Scripts\SpawnAleatorioInimigos.cs" />
      <Compile Include="assets\Scripts\StarsScore.cs" />
+     <Compile Include="assets\Scripts\StartScene.cs" />
      <Compile Include="assets\Scripts\TimeManager.cs" />
      <Compile Include="assets\Scripts\fade.cs" />
      <Compile Include="assets\Scripts\shoot.cs" />
-     <Compile Include="assets\StartScene.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

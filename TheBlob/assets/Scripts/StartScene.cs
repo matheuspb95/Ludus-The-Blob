@@ -5,11 +5,6 @@ public class StartScene : MonoBehaviour {
 	public GameObject Player, Score, ProgressBar, Lives, Stars;
 	// Use this for initialization
 
-
-
-
-
-
 	void Awake () {
 
 		Instantiate (Player);

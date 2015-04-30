@@ -4,7 +4,9 @@ using System.Collections;
 public class KillPlayer : MonoBehaviour {
 	// Use this for initialization
 //	public GameObject[] hearts;
-	public static int death=0;
+	public static  int death;
+
+	public int ParameterDeath;
 	void Start () {
 		death=0;
 	}	
@@ -16,7 +18,7 @@ public class KillPlayer : MonoBehaviour {
 			death++;
 			coll.gameObject.Recycle();					
 		}
-		if (death == 3){
+		if (death == ParameterDeath){
 			PlayerPrefs.SetInt("Actual Score", GameObject.Find("Manager").GetComponent<ScoreManager>().GetScore());
 			Application.LoadLevel("gameover");
 		}
