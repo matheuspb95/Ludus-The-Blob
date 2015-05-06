@@ -3,26 +3,15 @@ using System.Collections;
 
 public class AnimaçãoMovimento : MonoBehaviour {
 	//public Transform target;
-	public Animator Gosma;
-	public float ResetTime;
-	public float Delay;
-	private float ActualTime;
-		// Use this for initialization
+	private Animator Gosma;
+	public float ResetTime, Delay, ActualTime;
 	void Start () {
 		Gosma = GetComponent<Animator> ();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-			
-	}
-
-  public void Animaçao(Vector3 Direçao){
+  	public void Animaçao(Vector3 Direçao){
 		if (ActualTime < Time.time) {
 			ActualTime = Time.time + Delay;
-			Vector3 targetDir = Direçao;
-			//Debug.Log (targetDir.magnitude);
-			float angle = Mathf.Atan2 (targetDir.y, targetDir.x) * Mathf.Rad2Deg;
+			float angle = Mathf.Atan2 (Direçao.y, Direçao.x) * Mathf.Rad2Deg;
 			Debug.Log (angle);
 			if((angle >45) && angle <135){
 				Gosma.SetTrigger ("MoveCima");
@@ -43,9 +32,7 @@ public class AnimaçãoMovimento : MonoBehaviour {
 		}
 		Invoke ("ResetRotation", ResetTime);
 	}
-
 	void ResetRotation(){
-		Debug.Log("ResetROtation");
 		transform.rotation = Quaternion.AngleAxis(0, Vector3.forward);
 	}
 }

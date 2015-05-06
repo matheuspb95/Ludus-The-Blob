@@ -1,10 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\SoundControlerMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\ControlPlayer.cs">
     <Files>
-      <File FileName="assets\Scripts\StartScene.cs" Line="13" Column="23" />
-      <File FileName="assets\Scripts\SoundControler.cs" Line="13" Column="32" />
-      <File FileName="assets\Scripts\SoundControlerMenu.cs" Line="9" Column="24" />
+      <File FileName="assets\Scripts\SoundControler.cs" Line="16" Column="24" />
+      <File FileName="assets\Scripts\ControlPlayer.cs" Line="4" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

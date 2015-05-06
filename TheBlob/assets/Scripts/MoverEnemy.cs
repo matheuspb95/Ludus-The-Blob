@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ControllerEnemy : MonoBehaviour {
+public class MoverEnemy : MonoBehaviour {
 	private GameObject player;
 	public float velocity;
 	// Use this for initialization

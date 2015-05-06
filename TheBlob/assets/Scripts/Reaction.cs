@@ -14,7 +14,6 @@ public class Reaction : MonoBehaviour {
 		if (Input.GetMouseButton (0)) {
 			RaycastHit hit;
 			Physics.Raycast (Camera.main.ScreenToWorldPoint (Input.mousePosition), Vector3.forward, out hit, 1000);
-			Debug.Log (hit.collider);
 			Gosma.SetTrigger("Reaction");
 
 		}

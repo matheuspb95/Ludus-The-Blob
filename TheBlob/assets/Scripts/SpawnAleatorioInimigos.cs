@@ -11,13 +11,13 @@ public class SpawnAleatorioInimigos : MonoBehaviour {
 	}
 
 	void Spawn(){
-		float posx = Random.Range (-1f, 2f);
+		float posx = Random.Range (-0.11f, 1.1f);
 		while (posx > 0 && posx < 1) {
-			posx = Random.Range (-1f, 2f);
+			posx = Random.Range (-0.1f, 1.1f);
 		}
-		float posy = Random.Range (-1f, 2f);
+		float posy = Random.Range (-0.1f, 1.1f);
 		while (posy > 0 && posy < 1) {
-			posy = Random.Range (-1f, 2f);
+			posy = Random.Range (-0.1f, 1.1f);
 		}
 		//Debug.Log(""+posx+" - "+posy);
 		enemyPrefab.Spawn (Camera.main.ViewportToWorldPoint (new Vector3(posx, posy, 10)));
