@@ -130,4 +130,9 @@ public class JellySpriteReferencePoint : MonoBehaviour
 			ParentJellySprite.SendMessage("OnJellyTriggerStay2D", m_JellyCollider2D, SendMessageOptions.DontRequireReceiver);
 		}
 	}
+
+	void Start(){
+		gameObject.tag = "ReferencePoint";
+		gameObject.layer = LayerMask.NameToLayer("Player");
+	}
 }

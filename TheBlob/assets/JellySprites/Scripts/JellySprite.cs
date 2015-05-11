@@ -1802,6 +1802,24 @@ public abstract class JellySprite : MonoBehaviour
 		}
 	}
 
+	public void Stop(){
+		if(m_ReferencePoints != null)
+		{
+			foreach(ReferencePoint referencePoint in m_ReferencePoints)
+			{
+				if(referencePoint.Body2D)
+				{
+					referencePoint.Body2D.velocity = Vector2.zero;
+				}
+				
+				if(referencePoint.Body3D)
+				{
+					referencePoint.Body3D.velocity = Vector3.zero;
+				}
+			}
+		}
+	}
+
 	/// <summary>
 	/// Called when the editor wants to update the visible mesh
 	/// </summary>

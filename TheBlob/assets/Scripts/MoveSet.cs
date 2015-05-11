@@ -19,7 +19,10 @@ public class MoveSet : MonoBehaviour {
 	void Update () {
 	
 		offset += 0.001f;
+		if (offset * speed > 1)
+						offset = 0;
 		currentMaterial.SetTextureOffset ("_MainTex", new Vector2 (offset * speed, 0));
+
 	}
 
 }
