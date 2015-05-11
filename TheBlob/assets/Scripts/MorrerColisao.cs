@@ -6,7 +6,8 @@ public class MorrerColisao : MonoBehaviour {
 	public float DelayTime;
 	public int Life;
 	private SoundControler SoundExplosao;
-	private ScoreManager Score;
+	private ScoreManager ScoreRef;
+	public int ScoreToAdd;
 	public bool LoadLevelOnKill;
 	public string Tag, SoundFX, KillAnimation, TakeDamageAnimation, SceneToLoad;
 	// Use this for initializationz
@@ -27,9 +28,10 @@ public class MorrerColisao : MonoBehaviour {
 	}
 	void Kill(){
 		collider2D.enabled = false;
-		Score = GameObject.Find("Manager").GetComponent<ScoreManager>();
+		ScoreRef = GameObject.Find("Manager").GetComponent<ScoreManager>();
 		GameObject.FindGameObjectWithTag("SoundControler").GetComponent<SoundControler>().PlaySound(SoundFX);
-		Score.AddScore(Score.scoreaddnave);
+		ScoreRef.AddScore(ScoreToAdd);
+		PlayerPrefs.SetInt("Actual Score", GameObject.Find("Manager").GetComponent<ScoreManager>().GetScore());
 		Explosao.SetTrigger(KillAnimation);
 		Invoke ("DestroyNow", DelayTime);
 	}

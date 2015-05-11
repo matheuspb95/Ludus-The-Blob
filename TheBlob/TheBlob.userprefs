@@ -1,9 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\ControlPlayer.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\JellySprites\Scripts\UnityJellySprite.cs">
     <Files>
-      <File FileName="assets\Scripts\SoundControler.cs" Line="16" Column="24" />
-      <File FileName="assets\Scripts\ControlPlayer.cs" Line="4" Column="27" />
+      <File FileName="assets\Scripts\ControlPlayer.cs" Line="1" Column="1" />
+      <File FileName="assets\MoveTest.cs" Line="15" Column="41" />
+      <File FileName="assets\JellySprites\Scripts\JellySpriteReferencePoint.cs" Line="1" Column="1" />
+      <File FileName="assets\JellySprites\Scripts\UnityJellySprite.cs" Line="17" Column="2" />
+      <File FileName="assets\JellySprites\Scripts\JellySprite.cs" Line="23" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -46,6 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="assets\JellySprites\Demo\Scripts\BlobBehaviour.cs" />
+     <Compile Include="assets\JellySprites\Demo\Scripts\BlobEyes.cs" />
+     <Compile Include="assets\JellySprites\Demo\Scripts\JellySpriteDemoManager.cs" />
+     <Compile Include="assets\JellySprites\Scripts\JellyBridge.cs" />
+     <Compile Include="assets\JellySprites\Scripts\JellyCameraFollow.cs" />
+     <Compile Include="assets\JellySprites\Scripts\JellySprite.cs" />
+     <Compile Include="assets\JellySprites\Scripts\JellySpriteReferencePoint.cs" />
+     <Compile Include="assets\JellySprites\Scripts\UnityJellySprite.cs" />
+     <Compile Include="assets\MoveTest.cs" />
      <Compile Include="assets\Scripts\AdjustPositionToScreen.cs" />
      <Compile Include="assets\Scripts\AnimationTime.cs" />
      <Compile Include="assets\Scripts\AnimaçãoMovimento.cs" />
