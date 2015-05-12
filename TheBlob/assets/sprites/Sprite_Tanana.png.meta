@@ -4,6 +4,8 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: Sprite_Tanana_0
     21300002: Sprite_Tanana_1
+    21300004: Sprite_Tanana_2
+    21300006: Sprite_Tanana_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -24,7 +26,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -3
-  maxTextureSize: 1024
+  maxTextureSize: 2048
   textureSettings:
     filterMode: 2
     aniso: 16
@@ -49,19 +51,39 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 173
-        height: 173
+        y: 77
+        width: 55
+        height: 95
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprite_Tanana_1
       rect:
         serializedVersion: 2
+        x: 121
+        y: 79
+        width: 50
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Tanana_2
+      rect:
+        serializedVersion: 2
         x: 238
         y: 0
         width: 173
-        height: 173
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_Tanana_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 33
+        height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
