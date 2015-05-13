@@ -6,7 +6,6 @@ public class ScoreManager : MonoBehaviour
 {
 	private int score;        // The player's score.
 
-
 	Text text;                      // Reference to the Text component.
 	public int scoreaddnave = 10;
 	public void AddScore(int n){

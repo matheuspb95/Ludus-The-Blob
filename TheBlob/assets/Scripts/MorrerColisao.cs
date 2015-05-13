@@ -8,7 +8,7 @@ public class MorrerColisao : MonoBehaviour {
 	private SoundControler SoundExplosao;
 	private ScoreManager ScoreRef;
 	public int ScoreToAdd;
-	public bool LoadLevelOnKill;
+	public bool LoadLevelOnKill, EnabledAnimations;
 	public string Tag, SoundFX, KillAnimation, TakeDamageAnimation, SceneToLoad;
 	// Use this for initializationz
 	void Start () {
@@ -16,12 +16,21 @@ public class MorrerColisao : MonoBehaviour {
 	}
 	void DestroyNow () {
 		gameObject.Recycle();
+		collider2D.enabled = true;
 		if(LoadLevelOnKill)Application.LoadLevel (SceneToLoad);
 	}
 	void OnCollisionEnter2D(Collision2D cool){
 		if (cool.gameObject.tag == Tag) {
 			Life--;
-			Explosao.SetTrigger(TakeDamageAnimation);
+			if(EnabledAnimations) Explosao.SetTrigger(TakeDamageAnimation);
+			cool.gameObject.Recycle ();
+			if(Life<=0) Kill();
+		}	
+	}
+	void OnTriggerEnter2D(Collider2D cool){
+		if (cool.gameObject.tag == Tag) {
+			Life--;
+			if(EnabledAnimations) Explosao.SetTrigger(TakeDamageAnimation);
 			cool.gameObject.Recycle ();
 			if(Life<=0) Kill();
 		}	
@@ -32,7 +41,7 @@ public class MorrerColisao : MonoBehaviour {
 		GameObject.FindGameObjectWithTag("SoundControler").GetComponent<SoundControler>().PlaySound(SoundFX);
 		ScoreRef.AddScore(ScoreToAdd);
 		PlayerPrefs.SetInt("Actual Score", GameObject.Find("Manager").GetComponent<ScoreManager>().GetScore());
-		Explosao.SetTrigger(KillAnimation);
+		if(EnabledAnimations) Explosao.SetTrigger(KillAnimation);
 		Invoke ("DestroyNow", DelayTime);
 	}
 }

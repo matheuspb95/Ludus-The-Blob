@@ -2,12 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="assets\MoveTest.cs">
     <Files>
-      <File FileName="assets\MoveTest.cs" Line="20" Column="34" />
-      <File FileName="assets\Scripts\ControlPlayer.cs" Line="38" Column="7" />
-      <File FileName="assets\JellySprites\Scripts\JellySpriteReferencePoint.cs" Line="136" Column="54" />
-      <File FileName="assets\JellySprites\Scripts\UnityJellySprite.cs" Line="1" Column="1" />
-      <File FileName="assets\JellySprites\Scripts\JellySprite.cs" Line="1817" Column="52" />
-      <File FileName="assets\Scripts\MoveSet.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\ControlPlayer.cs" Line="62" Column="100" />
+      <File FileName="assets\MoveTest.cs" Line="40" Column="47" />
+      <File FileName="assets\Scripts\MorrerColisao.cs" Line="19" Column="29" />
+      <File FileName="assets\Scripts\StarsScore.cs" Line="15" Column="45" />
+      <File FileName="assets\Scripts\SoundControler.cs" Line="43" Column="22" />
+      <File FileName="assets\Scripts\ScoreManager.cs" Line="7" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

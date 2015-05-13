@@ -37,10 +37,10 @@ public class SoundControler : MonoBehaviour {
 		if (level == 0) {
 			MusicaMenu();
 			Stage.Stop();
-		}else if(level==3){
+		}else if(level==4){
 			Menu.Stop();
 			MusicaStage();
-		}else if(level == 4){
+		}else if(level == 3){
 			Stage.Stop();
 			MusicaGameOver();
 		}
