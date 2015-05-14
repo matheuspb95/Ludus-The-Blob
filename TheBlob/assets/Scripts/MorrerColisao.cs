@@ -40,6 +40,7 @@ public class MorrerColisao : MonoBehaviour {
 		ScoreRef = GameObject.Find("Manager").GetComponent<ScoreManager>();
 		GameObject.FindGameObjectWithTag("SoundControler").GetComponent<SoundControler>().PlaySound(SoundFX);
 		ScoreRef.AddScore(ScoreToAdd);
+		GameObject.Find ("Manager").GetComponent<FoodControl> ().CanISpawn (transform.position);
 		PlayerPrefs.SetInt("Actual Score", GameObject.Find("Manager").GetComponent<ScoreManager>().GetScore());
 		if(EnabledAnimations) Explosao.SetTrigger(KillAnimation);
 		Invoke ("DestroyNow", DelayTime);
