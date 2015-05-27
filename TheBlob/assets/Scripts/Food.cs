@@ -13,8 +13,17 @@ public class Food : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D cool){
 		if (cool.gameObject.tag == "Player") {
-			gameObject.Recycle();
+			StartCoroutine(Example());
+
 		}
 	}
+
+	IEnumerator Example() {
+		yield return new WaitForSeconds (0.1f);
+		    gameObject.Recycle();
+	}
+
+
+
 
 }

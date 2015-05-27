@@ -12,7 +12,8 @@ public class LifeBarController : MonoBehaviour {
 	void Start () {
 		target = transform.localScale;
 		scriptRef = GameObject.FindGameObjectWithTag ("Player").GetComponent<HungryColision> ();
-		maxHp = scriptRef.tamMax;
+
+		maxHp = scriptRef.max;
 	}
 
 	void Update () {
