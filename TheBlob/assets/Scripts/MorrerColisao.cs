@@ -2,18 +2,14 @@
 using System.Collections;
 
 public class MorrerColisao : MonoBehaviour {
-	private Animator Explosao;
+	public Animator AnimationController;
 	public float DelayTime;
 	public int Life;
 	private SoundControler SoundExplosao;
 	private ScoreManager ScoreRef;
 	public int ScoreToAdd;
-	public bool LoadLevelOnKill, EnabledAnimations;
+	public bool LoadLevelOnKill, EnabledAnimations, EnableDropItem;
 	public string Tag, SoundFX, KillAnimation, TakeDamageAnimation, SceneToLoad;
-	// Use this for initializationz
-	void Start () {
-		Explosao = GetComponent<Animator> ();
-	}
 	void DestroyNow () {
 		gameObject.Recycle();
 		collider2D.enabled = true;
@@ -22,7 +18,7 @@ public class MorrerColisao : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D cool){
 		if (cool.gameObject.tag == Tag) {
 			Life--;
-			if(EnabledAnimations) Explosao.SetTrigger(TakeDamageAnimation);
+			if(EnabledAnimations) AnimationController.SetTrigger(TakeDamageAnimation);
 			cool.gameObject.Recycle ();
 			if(Life<=0) Kill();
 		}	
@@ -30,7 +26,7 @@ public class MorrerColisao : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D cool){
 		if (cool.gameObject.tag == Tag) {
 			Life--;
-			if(EnabledAnimations) Explosao.SetTrigger(TakeDamageAnimation);
+			if(EnabledAnimations) AnimationController.SetTrigger(TakeDamageAnimation);
 			cool.gameObject.Recycle ();
 			if(Life<=0) Kill();
 		}	
@@ -40,9 +36,9 @@ public class MorrerColisao : MonoBehaviour {
 		ScoreRef = GameObject.Find("Manager").GetComponent<ScoreManager>();
 		GameObject.FindGameObjectWithTag("SoundControler").GetComponent<SoundControler>().PlaySound(SoundFX);
 		ScoreRef.AddScore(ScoreToAdd);
-		GameObject.Find ("Manager").GetComponent<FoodControl> ().CanISpawn (transform.position);
+		if(EnableDropItem) GameObject.Find ("Manager").GetComponent<FoodControl> ().CanISpawn (transform.position);
 		PlayerPrefs.SetInt("Actual Score", GameObject.Find("Manager").GetComponent<ScoreManager>().GetScore());
-		if(EnabledAnimations) Explosao.SetTrigger(KillAnimation);
+		if(EnabledAnimations) AnimationController.SetTrigger(KillAnimation);
 		Invoke ("DestroyNow", DelayTime);
 	}
 }

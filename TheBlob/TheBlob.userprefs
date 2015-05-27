@@ -1,12 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\LifeBarController.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\MorrerColisao.cs">
     <Files>
-      <File FileName="assets\Scripts\ScoreManager.cs" Line="27" Column="13" />
-      <File FileName="assets\Scripts\LifeBarController.cs" Line="1" Column="1" />
-      <File FileName="assets\Scripts\MorrerColisao.cs" Line="43" Column="25" />
-      <File FileName="assets\Scripts\HungryColision.cs" Line="16" Column="26" />
-      <File FileName="assets\Scripts\FoodControl.cs" Line="15" Column="3" />
+      <File FileName="assets\Scripts\MorrerColisao.cs" Line="39" Column="20" />
+      <File FileName="assets\Scripts\HungryColision.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\LifeBarController.cs" Line="31" Column="1" />
+      <File FileName="assets\Scripts\Food.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

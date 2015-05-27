@@ -22,7 +22,7 @@ public class LifeBarController : MonoBehaviour {
 	void AdjustGreenBar(){
 		target.x = currentHp;
 			currentHp = scriptRef.hitpoints / maxHp;
-		if(transform.localScale.x < 0.05f){
+		if(transform.localScale.x < 0f){
 			transform.localScale = new Vector3(0,1,1);
 		}
 		transform.localScale = Vector3.Lerp (transform.localScale, target, Time.deltaTime * hpLerpSpeed);
