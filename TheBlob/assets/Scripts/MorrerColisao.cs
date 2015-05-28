@@ -8,6 +8,11 @@ public class MorrerColisao : MonoBehaviour {
 	private SoundControler SoundExplosao;
 	private ScoreManager ScoreRef;
 	public int ScoreToAdd;
+	//public float ShakeAmplitude;
+	//public float ShakeMagnitude;
+	//public float ShakeDuration;
+	//private CameraFollower Shake;
+
 	public bool LoadLevelOnKill, EnabledAnimations, EnableDropItem;
 	public string Tag, SoundFX, KillAnimation, TakeDamageAnimation, SceneToLoad;
 	void DestroyNow () {
@@ -26,6 +31,8 @@ public class MorrerColisao : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D cool){
 		if (cool.gameObject.tag == Tag) {
 			Life--;
+			//Shake = GameObject.Find("Main Camera").GetComponent<CameraFollower>();
+			//Shake.shake(ShakeMagnitude,ShakeAmplitude,ShakeDuration);
 			if(EnabledAnimations) AnimationController.SetTrigger(TakeDamageAnimation);
 			cool.gameObject.Recycle ();
 			if(Life<=0) Kill();
