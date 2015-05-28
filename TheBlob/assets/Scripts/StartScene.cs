@@ -2,14 +2,14 @@
 using System.Collections;
 
 public class StartScene : MonoBehaviour {
-	public GameObject Player, Score, ProgressBar, Lives, Stars, SoundController;
+	public GameObject Player, Score, ProgressBar, Lives, SoundController;
 	// Use this for initialization
 	void Awake () {
 		Instantiate (Player);
 		Instantiate (Score);
 		Instantiate (ProgressBar);
 		Instantiate (Lives);
-		Instantiate (Stars);
+
 	}
 	void Start(){
 		Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Paredes"), LayerMask.NameToLayer("PlayerBullets"));
