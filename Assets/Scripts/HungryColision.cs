@@ -3,20 +3,17 @@ using System.Collections;
 
 public class HungryColision : MonoBehaviour {
 	public Animator AnimRef;
-	public float hitpoints;
-	private float addFood;
-  	 public float max;
+	public float hitpoints=0;
+	public float addFood;
+    public float max;
 
 	public float GetMax(){
 		return this.max;
 		}
-
+	
 
 	void Start () {
-		max = GameObject.Find ("Manager").GetComponent<FoodControl> ().Max;
-		addFood = GameObject.Find ("Manager").GetComponent<FoodControl> ().AddFood;
-
-
+	
 	}
 	void Update () {
 			}
