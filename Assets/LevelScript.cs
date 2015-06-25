@@ -12,16 +12,16 @@ public class LevelScript : MonoBehaviour {
 	void Update () {
 	
 	}
-//	public string GetlastLevelPlayed(){
-//		return this.LastLevelPlayed;
-//	}
-//	public void SetlastLevelPlayed(string LastLevel){
-//		this.LastLevelPlayed=LastLevel;
-//	}
-//	public string GetNextLevel(){
-//		return this.NextLevel;
-//	}
-//	public void SetNextLevel(string NextLevel){
-//		this.NextLevel=NextLevel;
-//	}
+	public string GetlastLevelPlayed(){
+		return this.LastLevelPlayed;
+	}
+	public void SetlastLevelPlayed(string LastLevel){
+		this.LastLevelPlayed=LastLevel;
+	}
+	public string GetNextLevel(){
+		return this.NextLevel;
+	}
+	public void SetNextLevel(string NextLevel){
+		this.NextLevel=NextLevel;
+	}
 }

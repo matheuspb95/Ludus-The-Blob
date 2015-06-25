@@ -56,6 +56,8 @@
      <Compile Include="Assets\JellySprites\Scripts\UnityJellySprite.cs" />
      <Compile Include="Assets\LevelInf.cs" />
      <Compile Include="Assets\LevelScript.cs" />
+     <Compile Include="Assets\LoadNextLevel.cs" />
+     <Compile Include="Assets\LoadPreviousLevel.cs" />
      <Compile Include="Assets\MoveTest.cs" />
      <Compile Include="Assets\Scripts\AdjustPositionToScreen.cs" />
      <Compile Include="Assets\Scripts\AnimationTime.cs" />
