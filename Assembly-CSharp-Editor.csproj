@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{5F614919-A1D3-A799-E818-AED99B868211}</ProjectGuid>
+	<ProjectGuid>{4A4A5E17-84FF-2E9E-CB16-EA6A61A9FF6C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,8 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="assets\JellySprites\Editor\JellySpriteEditor.cs" />
-     <Compile Include="assets\JellySprites\Editor\UnityJellySpriteEditor.cs" />
+     <Compile Include="Assets\JellySprites\Editor\JellySpriteEditor.cs" />
+     <Compile Include="Assets\JellySprites\Editor\UnityJellySpriteEditor.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -60,7 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{01DEB44A-76E1-1ECA-26FA-991BD5EB59AE}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{A640224D-3D51-89B6-7FC8-267BA037F478}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
