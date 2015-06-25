@@ -22,6 +22,7 @@ public class MorrerColisao : MonoBehaviour {
 	}
 	void OnCollisionEnter2D(Collision2D cool){
 		if (cool.gameObject.tag == Tag) {
+		   Camera.main.GetComponent<Animator>().SetTrigger("Shake");
 			Life--;
 			if(EnabledAnimations) AnimationController.SetTrigger(TakeDamageAnimation);
 			cool.gameObject.Recycle ();
@@ -30,6 +31,7 @@ public class MorrerColisao : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D cool){
 		if (cool.gameObject.tag == Tag) {
+			Camera.main.GetComponent<Animator>().SetTrigger("Shake");
 			Life--;
 			//Shake = GameObject.Find("Main Camera").GetComponent<CameraFollower>();
 			//Shake.shake(ShakeMagnitude,ShakeAmplitude,ShakeDuration);
