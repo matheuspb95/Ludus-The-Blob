@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MorrerColisao.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SpawnMeteor.cs">
     <Files>
+      <File FileName="Assets\Scripts\SpawnAleatorioInimigos.cs" Line="14" Column="1" />
       <File FileName="Assets\Scripts\MorrerColisao.cs" Line="25" Column="6" />
+      <File FileName="Assets\Scripts\SpawnMeteor.cs" Line="18" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
