@@ -5,7 +5,7 @@ public class ControlPlayer : MonoBehaviour {
 	private UnityJellySprite body;
 	public float Acceleration=1;
 	public float tapSpeed=0.5f;
-	private float lastTapTime=0;
+	private float lastTapTime;
 	private shoot shootRefer;
 	public AnimaçãoMovimento animacao;
 	public MoveTest Anim;

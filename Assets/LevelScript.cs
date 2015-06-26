@@ -6,6 +6,9 @@ public class LevelScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		DontDestroyOnLoad(transform.gameObject);
+		if (GameObject.FindGameObjectsWithTag ("LevelControler").Length > 1) {
+			Destroy(gameObject);	
+		}
 	}
 	
 	// Update is called once per frame
