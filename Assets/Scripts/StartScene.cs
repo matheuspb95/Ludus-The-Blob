@@ -2,12 +2,11 @@
 using System.Collections;
 
 public class StartScene : MonoBehaviour {
-	public GameObject Player, Score, ProgressBar, Lives, SoundController;
+	public GameObject Player, Score, Lives, SoundController;
 	// Use this for initialization
 	void Awake () {
 		Instantiate (Player);
 		Instantiate (Score);
-		Instantiate (ProgressBar);
 		Instantiate (Lives);
 
 	}
